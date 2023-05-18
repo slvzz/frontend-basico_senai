@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Exemplo</title>
+</head>
+<body class="conteudo">
+ <header>
+  <section class="linha">
+    <img src="imagens/logo.png" alt="Logotipo da empresa" width="200" height="80">
+    <nav>
+        <ul>
+          <li class="botao"><a href="index.html">Início</a></li>
+          <li class="botao botao-destaque"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+</header>
+ <main>
+    <section class="sobre linha">
+        <article>
+            <h1>Formulário de contato</h1>
+            <p>Preencha os dados abaixo e envie sua mensagem.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+           
+              </article>
+              <fieldset>
+                <form id="frmInscrição" action="contato.php" method="post">
+                  
+                    <label class="rotulo">Nome:</label><br>
+                    <input type="text" required="required" id="txtNome" maxlength="100" size="50" class="entrada"><br><br>
+                  
+                    <label class="rotulo">Sexo:</label><br>
+                    <input type="radio" name="rdoSexo" value="M" required="required">
+                    <label>Masculino</label>
+                    <input type="radio" name="rdoSexo" value="F" required="required">
+                    <label>Feminino</label>
+                    <br><br>
+  
+                    <label class="rotulo">Estado:</label><br>
+                    <select id="cbxEstado" required="required" class="entrada">
+                      <option value="">Selecione</option>
+                      <option value="1">SC</option>
+                      <option value="2">RS</option>
+                    </select><br><br>
+  
+                    <label class="rotulo">Cidade:</label><br>
+                    <select id="cbxCidade" required="required" class="entrada">
+                      <option value="">Selecione</option>
+                      <option value="1">Florianópolis</option>
+                      <option value="2">Rio Grande</option>
+                      <option value="3">Pelotas</option>
+                    </select><br><br>
+  
+                    <label class="rotulo">Celular:</label><br>
+                    <input type="text" required="required" size="11" id="txtNumero" placeholder="(##) #####-####" maxlength="15" class="entrada"><br><br>
+  
+                    <label class="rotulo">Email:</label><br>
+                    <input type="email" required="required" size="50" id="txtEmail" class="entrada"><br><br>
+  
+                    <label class="rotulo">Áreas de interesse:</label><br>
+                    <table>
+                      <tr>
+                        <td>
+                          <input type="checkbox" value="JavaScript" name="chkAreasInteresse" id="chkJavaScript">
+                          <label for="chkJavaScript">JavaScript</label>
+                        </td>
+                        <td>
+                          <input type="checkbox" value="HTML" name="chkAreasInteresse" id="chkHTML">
+                          <label for="chkHTML">HTML</label>
+                        </td>
+                        <td>
+                          <input type="checkbox" value="CSS" name="chkAreasInteresse" id="chkCSS">
+                          <label for="chkCSS">CSS</label>
+                        </td>
+                      </tr>
+                    </table><br>
+                    
+                    <label for="mensagem" class="rotulo">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem"  rows="5" cols="30" class="entrada mensagem"> </textarea><br><br>
+  
+                    <input id="btnEnviar" type="submit" value="Enviar" class="botao botao-destaque" />
+                  
+                  </form>
+                </fieldset> 
+            </section>
+              </main>
+              
+              <div class="footer">
+                <footer>
+                       <ul class="linha">
+                           <li><a href="https://www.instagram.com/silviorizzzo">
+                               <img src="imagens/logo-insta.png" alt="Instagram">
+                             </a>
+                           <li><a href="https://www.twitter.com/silviorizzzo">
+                               <img src="imagens/logo-twitter.png" alt="Twitter">
+                             </a>
+                           <li><a href="https://www.facebook.com/silvio.rizzo.35">
+                               <img src="imagens/logo-facebook.png" alt="Facebook">
+                             </a>
+                       </ul>
+               </footer>
+               </div>
+</footer>
+</body>
+</html>
