@@ -1,3 +1,3 @@
 # Programação Básica em Front-End
-Módulo 1 - HTML
+Página final:
 https://slvzz.github.io/frontend-basico_senai/
