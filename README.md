@@ -10,5 +10,4 @@ Esse projeto foi desenvolvido no curso de Front-End básico do SENAI com as segu
 
 - HTML
 - CSS
-- Git e Github
 
