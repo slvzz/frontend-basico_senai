@@ -2,7 +2,7 @@
 
 ## 🖥️ Projeto
 
-Esse é um projeto web responsivo de uma landing page e um formulário de contato.
+Esse é um projeto web de uma landing page e um formulário de contato.
 
 ## 🚀 Tecnologias
 
